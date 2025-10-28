@@ -33,12 +33,18 @@ public:
 	{
 		for (int i = 1; i <= p; i++)
 		{
-			int x = 0, int y = 0, int z = 0;
+			int x = 0;
+			int y = 0;
+			int z = 0;
 			cin >> x >> y >> z;
 			diff[x] += z;
 			if (y != n)
 			{
 				diff[y + 1] -= z;
+			}
+			else
+			{
+				continue;
 			}
 		}
 	}
@@ -48,8 +54,15 @@ public:
 		int temp = 0;
 		for (int i = 1; i <= n; i++)
 		{
-			
+			temp += diff[i];
+			ans.push_back(temp);
 		}
+	}
+
+	void output()
+	{
+		sort(ans.begin(), ans.end());
+		cout << ans[0] << endl;
 	}
 
 };
@@ -62,5 +75,9 @@ int main()
 
 	p2367 p;
 	p.set();
+	p.add();
+	p.total();
+	p.output();
 
+	return 0;
 }
