@@ -1,3 +1,14 @@
-﻿  p2004.cpp
-D:\code\c++\luogu_6\luogu_6\Project1\p2004.cpp(28,16): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+﻿  p3017.cpp
+  p3406.cpp
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(42,13): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(42,13): warning C4244:         with
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(42,13): warning C4244:         [
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(42,13): warning C4244:             _Ty=__int64
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(42,13): warning C4244:         ]
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(43,11): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(43,11): warning C4244:         with
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(43,11): warning C4244:         [
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(43,11): warning C4244:             _Ty=__int64
+D:\code\c++\luogu_6\luogu_6\Project1\p3406.cpp(43,11): warning C4244:         ]
+  正在生成代码...
   Project1.vcxproj -> D:\code\c++\luogu_6\luogu_6\x64\Debug\Project1.exe
